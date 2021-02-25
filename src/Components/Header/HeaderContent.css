@@ -1,0 +1,29 @@
+.Logoclass{
+    height:140px;
+    width: 600px;
+    margin: 10px;
+    
+}
+.Logoclass:hover{
+    transform: scale(1.1);
+}
+.HeaderLogo{
+    height:120px;
+    width:120px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.HeaderLogo:hover{
+    transform: scale(1.1);
+}
+.admissioncontent{
+    /* padding-left: 420px; */
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: blue;
+    text-align: center;
+    margin-left: 40px;
+}
+.admissioncontent:hover{
+    color: red;
+}
