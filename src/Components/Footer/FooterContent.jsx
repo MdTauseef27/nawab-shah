@@ -33,7 +33,7 @@ export const FooterContent = () => {
             </Form>
           </Col>
           <Col lg="2">
-            <Button className="submitButton">Submit Now </Button>
+            <Button className="submitButton">SUBMIT NOW </Button>
           </Col>
           <Col lg="3">
             <Button className="ButtonIcons">
