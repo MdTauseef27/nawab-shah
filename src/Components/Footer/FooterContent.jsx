@@ -1,15 +1,25 @@
 import React from "react";
 import { Form, Row, Col, Button, Nav } from "react-bootstrap";
 import "../Footer/FooterContent.css";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import FacebookIcon from "@material-ui/icons/Facebook";
 export const FooterContent = () => {
   return (
     <div>
       <div className=" maindiv">
         <Row>
           <Col lg="4">
-            <h6 className="Contenth6">Subscribe Our NewsLetter</h6>
+            <h6 className="Contenth6">
+              <MailOutlineIcon
+                style={{ marginBottom: "2px", marginRight: "10px" }}
+              />
+              Subscribe Our NewsLetter
+            </h6>
           </Col>
-          <Col lg="4">
+          <Col lg="3">
             <Form>
               <Form.Row>
                 <Form.Group>
@@ -22,8 +32,22 @@ export const FooterContent = () => {
               </Form.Row>
             </Form>
           </Col>
-          <Col lg="4">
+          <Col lg="2">
             <Button className="submitButton">Submit Now </Button>
+          </Col>
+          <Col lg="3">
+            <Button className="ButtonIcons">
+              <FacebookIcon />
+            </Button>
+            <Button className="ButtonTwitter">
+              <TwitterIcon />
+            </Button>
+            <Button className="ButtonWhatsapp">
+              <WhatsAppIcon />
+            </Button>
+            <Button className="ButtonIcons">
+              <LinkedInIcon />
+            </Button>
           </Col>
         </Row>
       </div>
@@ -83,8 +107,9 @@ export const FooterContent = () => {
           <Col lg="3">
             <h6 className="h6tagline"></h6>
             <h6 className="h6tag">GET IN TOUCH</h6>
-            <p className="paratag">Add:16-4-1 New Malakpet, Near Railway</p>
-            <p className="paratag">Station,Malakpet,Hyderabad,INDIA.</p>
+            <p className="paratag">Add:16-4-1 New Malakpet</p>
+            <p className="paratag">Near Railway Station</p>
+            <p className="paratag">Malakpet,Hyderabad,INDIA.</p>
             <p className="paratag">Tel: 040-24561118,24066894</p>
             <p className="paratag">Email:info@nsakcet.ac.in</p>
           </Col>
