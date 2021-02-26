@@ -10,7 +10,7 @@ margin-left: 10px;
     background-color:  #3F444E;
 }
 .submitButton{
-margin-top: 20px;
+margin-top: 19px;
 font-size: 14px !important;
 }
 .submitButton:hover{
@@ -18,7 +18,7 @@ font-size: 14px !important;
     background-color: black !important;
 }
 .formControls{
-    margin-top: 15px;
+    margin-top: 17px;
     background-color: #393D46 !important;
     box-shadow: none !important;
 }

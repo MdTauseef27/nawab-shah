@@ -19,7 +19,7 @@ export const FooterContent = () => {
               Subscribe Our NewsLetter
             </h6>
           </Col>
-          <Col lg="3">
+          <Col lg="2">
             <Form>
               <Form.Row>
                 <Form.Group>
@@ -35,7 +35,7 @@ export const FooterContent = () => {
           <Col lg="2">
             <Button className="submitButton">SUBMIT NOW </Button>
           </Col>
-          <Col lg="3">
+          <Col lg="4">
             <Button className="ButtonIcons">
               <FacebookIcon />
             </Button>
