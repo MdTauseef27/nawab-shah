@@ -91,7 +91,7 @@ export const FooterContent = () => {
         </Row>
       </div>
       <div className="copyrightcontent">
-        Copyright © 2008 - 2019
+        Copyright © 2008 - 2021
         <a className="atag" href="http://nsakcet.ac.in">
           Nawab Shah Alam Khan College of Engineering &amp; Technology
         </a>
