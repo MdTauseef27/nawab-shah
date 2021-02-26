@@ -11,6 +11,7 @@ margin-left: 10px;
 }
 .submitButton{
 margin-top: 15px;
+font-size: 14px !important;
 }
 .submitButton:hover{
     
