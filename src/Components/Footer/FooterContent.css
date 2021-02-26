@@ -74,3 +74,26 @@ margin-top: 15px;
     margin-top: 20px;
     margin-left: 55px;
 }
+.ButtonIcons{
+    background-color: #3C5A9A !important;
+    /* width: 40px;
+    height:40px; */
+    margin-top: 15px;
+}
+.ButtonTwitter{
+    background-color: #2DAAE0 !important;
+    margin-top: 15px;
+}
+.ButtonWhatsapp{
+    background-color: #EE4F2F !important;
+    margin-top: 15px;
+}
+.ButtonIcons:hover{
+    transform: scale(1.2);
+}
+.ButtonTwitter:hover{
+    transform: scale(1.2);
+}
+.ButtonWhatsapp:hover{
+    transform: scale(1.2);
+}
