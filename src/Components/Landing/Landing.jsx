@@ -4,15 +4,16 @@ import { Navbars } from "../Navbar/Navbars";
 import { HeaderContent } from "../Header/HeaderContent";
 import { Container } from "react-bootstrap";
 import { FooterContent } from "../Footer/FooterContent";
+import { Card } from "react-bootstrap";
 export const Landing = () => {
   return (
     <div>
-      <Container>
+      <Card>
         <HeaderContent />
         <Navbars />
         <FooterContent />
         {/* <UGCoursesDetails /> */}
-      </Container>
+      </Card>
     </div>
   );
 };
