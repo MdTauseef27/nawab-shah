@@ -1,0 +1,28 @@
+.navbarlink{
+    color: black !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+   
+}
+.navbarlink:hover{
+ color: #EE7C7C !important; 
+/* transform: scale(1.0) !important; */
+ /* border-bottom: 2px solid #EE7C7C;  
+ padding: 10px;  */
+}
+.navbarmain{
+    background-color: #B22D30;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding-left: 35px;
+}
+.navbarmainlink{
+    color: white !important;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.navbarmainlink:hover{
+    transform: scale(1.1);
+}
