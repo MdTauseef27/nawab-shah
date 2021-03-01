@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Navbar/Navbars.css";
-
+import { Homepage } from "../HomePage/Homepage";
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
 import { MYHome } from "../MYHome";
 export const Navbars = () => {
@@ -73,7 +73,7 @@ export const Navbars = () => {
             <UGCoursesDetails />
           </Route>
           <Route path="/">
-            <MYHome />
+            <Homepage />
           </Route>
         </Switch>
       </Router>
