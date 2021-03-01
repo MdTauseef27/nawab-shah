@@ -13,12 +13,10 @@ export const Homepage = () => {
           <img src={imgLogo1} />
         </Carousel.Item>
         <Carousel.Item>
-          {" "}
-          <img src={imgLogo2} />{" "}
+          <img src={imgLogo2} />
         </Carousel.Item>
         <Carousel.Item>
-          {" "}
-          <img src={imgLogo3} />{" "}
+          <img src={imgLogo3} />
         </Carousel.Item>
       </Carousel>
     </div>
