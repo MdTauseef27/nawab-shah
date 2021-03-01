@@ -1,4 +1,17 @@
 import React from "react";
+import { Carousel } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import imgLogo1 from "../Images/HomeCarousels1.png";
 export const Homepage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Carousel>
+        <Carousel.Item>
+          <img src={imgLogo1} />
+        </Carousel.Item>
+        <Carousel.Item>{/* <img src={imgLogo2} /> */}</Carousel.Item>
+        <Carousel.Item>{/* <img src={imgLogo3} /> */}</Carousel.Item>
+      </Carousel>
+    </div>
+  );
 };
