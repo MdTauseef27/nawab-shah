@@ -8,7 +8,7 @@ import imgLogo3 from "../Images/HomeCarousels3.png";
 export const Homepage = () => {
   return (
     <div>
-      <Carousel>
+      <Carousel style={{ marginTop: "50px", marginBottom: "50px" }}>
         <Carousel.Item>
           <img src={imgLogo1} />
         </Carousel.Item>
