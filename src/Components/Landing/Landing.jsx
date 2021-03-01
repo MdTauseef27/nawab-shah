@@ -5,10 +5,12 @@ import { HeaderContent } from "../Header/HeaderContent";
 import { Container } from "react-bootstrap";
 import { FooterContent } from "../Footer/FooterContent";
 import { Card } from "react-bootstrap";
+import { NavbarMain } from "../Navbar/NavbarMain";
 export const Landing = () => {
   return (
     <div>
       <Card>
+        <NavbarMain />
         <HeaderContent />
         <Navbars />
         <FooterContent />
