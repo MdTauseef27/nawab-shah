@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import imgLogo1 from "../Images/HomeCarousels1.png";
 import imgLogo2 from "../Images/HomeCarousels2.png";
 import imgLogo3 from "../Images/HomeCarousels3.png";
-
+import "../HomePage/Homepage.css";
 export const Homepage = () => {
   return (
     <div>
-      <Carousel style={{ marginTop: "50px", marginBottom: "50px" }}>
+      <Carousel className="HomeCarousels">
         <Carousel.Item>
           <img src={imgLogo1} />
         </Carousel.Item>
