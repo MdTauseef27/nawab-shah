@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Row, Col, Card } from "react-bootstrap";
+import { Carousel, Row, Col, Card, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import imgLogo1 from "../Images/HomeCarousels1.png";
 import imgLogo2 from "../Images/HomeCarousels2.png";
@@ -35,6 +35,9 @@ export const Homepage = () => {
             <Card className="HomeCards">
               <Card.Img src={cardLogo1}></Card.Img>
             </Card>
+          </Row>
+          <Row>
+            <Nav.Link>NSAKCET</Nav.Link>
           </Row>
         </Col>
         <Col lg="3">
