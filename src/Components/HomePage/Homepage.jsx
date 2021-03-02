@@ -38,11 +38,7 @@ export const Homepage = () => {
           </Row>
         </Col>
         <Col lg="3">
-          <h6
-            style={{ textAlign: "left", marginLeft: "20px", fontSize: "18px" }}
-          >
-            LATEST NEWS
-          </h6>
+          <h6 className="HomeHeader6">LATEST NEWS</h6>
         </Col>
       </Row>
     </div>
