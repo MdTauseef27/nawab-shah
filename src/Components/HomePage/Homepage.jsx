@@ -50,19 +50,18 @@ export const Homepage = () => {
               <Nav.Link style={{ float: "left", marginLeft: "62px" }}>
                 LABORATORIES
               </Nav.Link>
+              <p>
+                Our Laboratories for all the departments are well-equipped and
+                state of the art and in sync with the JNTU syllabus taught
+              </p>
+              <Button style={{ float: "left" }}>Read More</Button>
             </Col>
             <Col>
               <Nav.Link style={{ float: "left", marginLeft: "125px" }}>
                 EMINENT PROFESSORS
               </Nav.Link>
-            </Col>
-          </Row>
-          <Row>
-            <Col></Col>
-            <Col>
-              <Button style={{ float: "left" }}>Read More</Button>
-            </Col>
-            <Col>
+              <p>Eminent Professors and Research Team at NSAKCET.</p>
+              <br></br>
               <Button style={{ float: "left" }}>Read More</Button>
             </Col>
           </Row>
