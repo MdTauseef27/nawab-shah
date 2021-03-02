@@ -5,6 +5,8 @@ import imgLogo1 from "../Images/HomeCarousels1.png";
 import imgLogo2 from "../Images/HomeCarousels2.png";
 import imgLogo3 from "../Images/HomeCarousels3.png";
 import cardLogo1 from "../Images/HomeCard1.png";
+import cardLogo2 from "../Images/HomeCard2.png";
+
 import "../HomePage/Homepage.css";
 export const Homepage = () => {
   return (
@@ -21,7 +23,7 @@ export const Homepage = () => {
         </Carousel.Item>
       </Carousel>
       <Row>
-        <Col lg="8">
+        <Col lg="9">
           <h6
             style={{ textAlign: "left", marginLeft: "20px", fontSize: "18px" }}
           >
@@ -32,11 +34,14 @@ export const Homepage = () => {
               <Card.Img src={cardLogo1}></Card.Img>
             </Card>
             <Card className="HomeCards">
+              <Card.Img src={cardLogo2}></Card.Img>
+            </Card>
+            <Card className="HomeCards">
               <Card.Img src={cardLogo1}></Card.Img>
             </Card>
           </Row>
         </Col>
-        <Col lg="4">
+        <Col lg="3">
           <h6
             style={{ textAlign: "left", marginLeft: "20px", fontSize: "18px" }}
           >
