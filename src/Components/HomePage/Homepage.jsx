@@ -40,7 +40,14 @@ export const Homepage = () => {
             <Col lg="3">
               <Nav.Link style={{ float: "left" }}>NSAKCET</Nav.Link>
               <br></br>
-              <p style={{ textAlign: "left" }}>
+              <p
+                style={{
+                  textAlign: "justify",
+                  marginLeft: "15px",
+                  width: "275px",
+                  lineHeight: "20px",
+                }}
+              >
                 The synonym for high quality education. We have earned that name
                 for the exceptional service provided in all these years.
               </p>
@@ -50,19 +57,46 @@ export const Homepage = () => {
               <Nav.Link style={{ float: "left", marginLeft: "62px" }}>
                 LABORATORIES
               </Nav.Link>
-              <p>
+              <br></br>
+              <p
+                style={{
+                  textAlign: "justify",
+                  marginLeft: "75px",
+                  width: "275px",
+                  lineHeight: "20px",
+                }}
+              >
                 Our Laboratories for all the departments are well-equipped and
                 state of the art and in sync with the JNTU syllabus taught
               </p>
-              <Button style={{ float: "left" }}>Read More</Button>
+              <Button style={{ float: "left", marginLeft: "75px" }}>
+                Read More
+              </Button>
             </Col>
             <Col>
               <Nav.Link style={{ float: "left", marginLeft: "125px" }}>
                 EMINENT PROFESSORS
               </Nav.Link>
-              <p>Eminent Professors and Research Team at NSAKCET.</p>
               <br></br>
-              <Button style={{ float: "left" }}>Read More</Button>
+              <p
+                style={{
+                  textAlign: "justify",
+                  marginLeft: "140px",
+                  width: "275px",
+                  lineHeight: "20px",
+                }}
+              >
+                Eminent Professors and Research Team at NSAKCET.
+              </p>
+              <Button
+                style={{
+                  float: "left",
+                  marginTop: "50px",
+                  marginLeft: "140px",
+                }}
+              >
+                Read More
+              </Button>
             </Col>
           </Row>
         </Col>
