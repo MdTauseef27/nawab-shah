@@ -24,11 +24,7 @@ export const Homepage = () => {
       </Carousel>
       <Row>
         <Col lg="9">
-          <h6
-            style={{ textAlign: "left", marginLeft: "20px", fontSize: "18px" }}
-          >
-            NSAKCET
-          </h6>
+          <h6 className="HomeHeader6">NSAKCET</h6>
           <Row>
             <Card className="HomeCards">
               <Card.Img src={cardLogo1}></Card.Img>
