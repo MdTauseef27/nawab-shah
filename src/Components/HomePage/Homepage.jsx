@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Row, Col, Card, Nav } from "react-bootstrap";
+import { Carousel, Row, Col, Card, Nav, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import imgLogo1 from "../Images/HomeCarousels1.png";
 import imgLogo2 from "../Images/HomeCarousels2.png";
@@ -37,7 +37,34 @@ export const Homepage = () => {
             </Card>
           </Row>
           <Row>
-            <Nav.Link>NSAKCET</Nav.Link>
+            <Col lg="3">
+              <Nav.Link style={{ float: "left" }}>NSAKCET</Nav.Link>
+              <br></br>
+              <p style={{ textAlign: "left" }}>
+                The synonym for high quality education. We have earned that name
+                for the exceptional service provided in all these years.
+              </p>
+              <Button style={{ float: "left" }}>Read More</Button>
+            </Col>
+            <Col lg="3">
+              <Nav.Link style={{ float: "left", marginLeft: "62px" }}>
+                LABORATORIES
+              </Nav.Link>
+            </Col>
+            <Col>
+              <Nav.Link style={{ float: "left", marginLeft: "125px" }}>
+                EMINENT PROFESSORS
+              </Nav.Link>
+            </Col>
+          </Row>
+          <Row>
+            <Col></Col>
+            <Col>
+              <Button style={{ float: "left" }}>Read More</Button>
+            </Col>
+            <Col>
+              <Button style={{ float: "left" }}>Read More</Button>
+            </Col>
           </Row>
         </Col>
         <Col lg="3">
