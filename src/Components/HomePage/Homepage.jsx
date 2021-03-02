@@ -46,6 +46,7 @@ export const Homepage = () => {
                   marginLeft: "15px",
                   width: "275px",
                   lineHeight: "20px",
+                  marginTop: "20px",
                 }}
               >
                 The synonym for high quality education. We have earned that name
@@ -64,6 +65,7 @@ export const Homepage = () => {
                   marginLeft: "75px",
                   width: "275px",
                   lineHeight: "20px",
+                  marginTop: "20px",
                 }}
               >
                 Our Laboratories for all the departments are well-equipped and
@@ -84,6 +86,7 @@ export const Homepage = () => {
                   marginLeft: "140px",
                   width: "275px",
                   lineHeight: "20px",
+                  marginTop: "20px",
                 }}
               >
                 Eminent Professors and Research Team at NSAKCET.
@@ -91,7 +94,7 @@ export const Homepage = () => {
               <Button
                 style={{
                   float: "left",
-                  marginTop: "50px",
+                  marginTop: "30px",
                   marginLeft: "140px",
                 }}
               >
