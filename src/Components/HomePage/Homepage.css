@@ -10,4 +10,11 @@
     border-radius: 10px;
     margin-left: 30px;
     overflow: hidden;
+    
+}
+.HomeCards:hover{
+    
+    transition:all 0.2s ease-out;
+    border: 10px solid #EE7C7C;
+    
 }
