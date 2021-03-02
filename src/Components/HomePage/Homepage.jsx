@@ -28,34 +28,10 @@ export const Homepage = () => {
             NSAKCET
           </h6>
           <Row>
-            <Card
-              style={{
-                height: "200px",
-                width: "275px",
-                marginTop: "30px",
-                marginBottom: "40px",
-
-                borderRadius: "20px",
-                marginLeft: "22px",
-                overflow: "hidden",
-                borderRadius: "10px",
-              }}
-            >
+            <Card className="HomeCards">
               <Card.Img src={cardLogo1}></Card.Img>
             </Card>
-            <Card
-              style={{
-                height: "200px",
-                width: "275px",
-                marginTop: "30px",
-                marginBottom: "40px",
-
-                borderRadius: "20px",
-                marginLeft: "22px",
-                overflow: "hidden",
-                borderRadius: "10px",
-              }}
-            >
+            <Card className="HomeCards">
               <Card.Img src={cardLogo1}></Card.Img>
             </Card>
           </Row>

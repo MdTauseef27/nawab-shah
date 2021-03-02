@@ -2,3 +2,12 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.HomeCards{
+    height: 200px;
+    width: 275px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+    overflow: hidden;
+}
