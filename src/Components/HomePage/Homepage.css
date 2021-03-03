@@ -37,3 +37,10 @@
     float: left;
     margin-left: 20px;
 }
+.HomePTag{
+    text-align: justify;
+    margin-left: 20px;
+    width: 275px;
+    line-height: 20px;
+    margin-top: 20px;
+}

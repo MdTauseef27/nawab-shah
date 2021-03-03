@@ -32,15 +32,7 @@ export const Homepage = () => {
           </Card>
           <Nav.Link className="HomeNavLink">NSAKCET</Nav.Link>
           <br></br>
-          <p
-            style={{
-              textAlign: "justify",
-              marginLeft: "20px",
-              width: "275px",
-              lineHeight: "20px",
-              marginTop: "20px",
-            }}
-          >
+          <p className="HomePTag">
             The synonym for high quality education. We have earned that name for
             the exceptional service provided in all these years.
           </p>
@@ -52,15 +44,7 @@ export const Homepage = () => {
           </Card>
           <Nav.Link className="HomeNavLink">LABORATORIES</Nav.Link>
           <br></br>
-          <p
-            style={{
-              textAlign: "justify",
-              marginLeft: "20px",
-              width: "275px",
-              lineHeight: "20px",
-              marginTop: "20px",
-            }}
-          >
+          <p className="HomePTag">
             Our Laboratories for all the departments are well-equipped and state
             of the art and in sync with the JNTU syllabus taught
           </p>
