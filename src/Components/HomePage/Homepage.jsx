@@ -56,15 +56,7 @@ export const Homepage = () => {
           </Card>
           <Nav.Link className="HomeNavLink">EMINENT PROFESSORS</Nav.Link>
           <br></br>
-          <p
-            style={{
-              textAlign: "justify",
-              marginLeft: "20px",
-              width: "275px",
-              lineHeight: "20px",
-              marginTop: "20px",
-            }}
-          >
+          <p className="HomePTag">
             Eminent Professors and Research Team at NSAKCET.
           </p>
           <Button
