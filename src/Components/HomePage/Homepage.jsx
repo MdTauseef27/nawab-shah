@@ -4,6 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import imgLogo1 from "../Images/HomeCarousels1.png";
 import imgLogo2 from "../Images/HomeCarousels2.png";
 import imgLogo3 from "../Images/HomeCarousels3.png";
+import imgLogo4 from "../Images/HomeCarousels4.png";
+import imgLogo5 from "../Images/HomeCarousels5.png";
+import imgLogo6 from "../Images/HomeCarousels6.png";
+
+import imgLogo7 from "../Images/HomeCarousels7.png";
+import imgLogo8 from "../Images/HomeCarousels8.png";
+import imgLogo9 from "../Images/HomeCarousels9.png";
+import imgLogo10 from "../Images/HomeCarousels10.png";
+import imgLogo11 from "../Images/HomeCarousels11.png";
+import imgLogo12 from "../Images/HomeCarousels12.png";
+import imgLogo13 from "../Images/HomeCarousels13.png";
 import cardLogo1 from "../Images/HomeCard1.png";
 import cardLogo2 from "../Images/HomeCard2.png";
 
@@ -20,6 +31,36 @@ export const Homepage = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img src={imgLogo3} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo4} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo5} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo6} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo7} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo8} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo9} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo10} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo11} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo12} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={imgLogo13} />
         </Carousel.Item>
       </Carousel>
       <Row>
