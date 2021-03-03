@@ -92,8 +92,8 @@ export const Homepage = () => {
             }}
           >
             <Card.Body>
-              <Nav.Link>COURSES</Nav.Link>
-              <Nav.Link>Study Material</Nav.Link>
+              <Nav.Link className="HomeNavLink">COURSES</Nav.Link>
+              <Nav.Link className="HomeNavLink">Study Material</Nav.Link>
             </Card.Body>
           </Card>
         </Col>
