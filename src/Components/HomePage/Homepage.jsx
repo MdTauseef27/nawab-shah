@@ -23,43 +23,43 @@ export const Homepage = () => {
   return (
     <div>
       <Carousel className="HomeCarousels">
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo1} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo2} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo3} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo4} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo5} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo6} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo7} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo8} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo9} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo10} />
         </Carousel.Item>
         <Carousel.Item>
           <img src={imgLogo11} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo12} />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img src={imgLogo13} />
         </Carousel.Item>
       </Carousel>
