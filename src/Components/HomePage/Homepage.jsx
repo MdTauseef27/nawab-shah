@@ -17,6 +17,15 @@ import imgLogo12 from "../Images/HomeCarousels12.png";
 import imgLogo13 from "../Images/HomeCarousels13.png";
 import cardLogo1 from "../Images/HomeCard1.png";
 import cardLogo2 from "../Images/HomeCard2.png";
+import imgProf1 from "../Images/HomeCarouselProfessor1.jpg";
+import imgProf2 from "../Images/HomeCarouselProfessor2.jpg";
+import imgProf3 from "../Images/HomeCarouselProfessor3.jpg";
+import imgProf4 from "../Images/HomeCarouselProfessor4.jpg";
+import imgProf5 from "../Images/HomeCarouselProfessor5.jpg";
+
+import imgProf7 from "../Images/HomeCarouselProfessor7.jpg";
+import imgProf8 from "../Images/HomeCarouselProfessor8.jpg";
+import imgProf9 from "../Images/HomeCarouselProfessor9.jpg";
 
 import "../HomePage/Homepage.css";
 export const Homepage = () => {
@@ -90,8 +99,33 @@ export const Homepage = () => {
           <Button className="HomeButtonRead">Read More</Button>
         </Col>
         <Col lg="3">
-          <Card className="HomeCards" style={{ marginTop: "48px" }}>
-            <Card.Img src={cardLogo1}></Card.Img>
+          <Card className="HomeCarouselProfessor" style={{ marginTop: "48px" }}>
+            <Carousel>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf1} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf2} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf3} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf4} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf5} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf7} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf8} />
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <img src={imgProf9} />
+              </Carousel.Item>
+            </Carousel>
           </Card>
           <Nav.Link className="HomeNavLink">EMINENT PROFESSORS</Nav.Link>
           <br></br>
