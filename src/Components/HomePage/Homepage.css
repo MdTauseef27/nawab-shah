@@ -30,3 +30,6 @@
     color:black;
     font-weight: bold;
 }
+.HomeNavLink:hover{
+    color: #EE7C7C  !important;
+}
