@@ -23,8 +23,6 @@ export const Homepage = () => {
         </Carousel.Item>
       </Carousel>
       <Row>
-        {/* <Col lg="9"> */}
-
         <Col lg="3">
           <h6 className="HomeHeader6">NSAKCET</h6>
           <Card className="HomeCards">
