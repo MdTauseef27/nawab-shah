@@ -102,28 +102,28 @@ export const Homepage = () => {
           <Card className="HomeCarouselProfessor" style={{ marginTop: "48px" }}>
             <Carousel>
               <Carousel.Item interval={2000}>
-                <img src={imgProf1} />
+                <img src={imgProf1} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf2} />
+                <img src={imgProf2} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf3} />
+                <img src={imgProf3} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf4} />
+                <img src={imgProf4} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf5} />
+                <img src={imgProf5} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf7} />
+                <img src={imgProf7} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf8} />
+                <img src={imgProf8} className="HomeCarouselProfImage" />
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img src={imgProf9} />
+                <img src={imgProf9} className="HomeCarouselProfImage" />
               </Carousel.Item>
             </Carousel>
           </Card>

@@ -11,6 +11,9 @@
      margin-left: 20px; 
     overflow: hidden;
 }
+.HomeCarouselProfImage{
+    height:200px;
+}
 .HomeCards{
     height: 200px;
     width: 275px;
