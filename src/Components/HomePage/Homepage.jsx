@@ -44,9 +44,7 @@ export const Homepage = () => {
             The synonym for high quality education. We have earned that name for
             the exceptional service provided in all these years.
           </p>
-          <Button style={{ float: "left", marginLeft: "20px" }}>
-            Read More
-          </Button>
+          <Button className="HomeButtonRead">Read More</Button>
         </Col>
         <Col lg="3">
           <Card className="HomeCards" style={{ marginTop: "48px" }}>
@@ -66,9 +64,7 @@ export const Homepage = () => {
             Our Laboratories for all the departments are well-equipped and state
             of the art and in sync with the JNTU syllabus taught
           </p>
-          <Button style={{ float: "left", marginLeft: "20px" }}>
-            Read More
-          </Button>
+          <Button className="HomeButtonRead">Read More</Button>
         </Col>
         <Col lg="3">
           <Card className="HomeCards" style={{ marginTop: "48px" }}>
@@ -88,10 +84,9 @@ export const Homepage = () => {
             Eminent Professors and Research Team at NSAKCET.
           </p>
           <Button
+            className="HomeButtonRead"
             style={{
-              float: "left",
               marginTop: "30px",
-              marginLeft: "20px",
             }}
           >
             Read More

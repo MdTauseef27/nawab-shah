@@ -33,3 +33,7 @@
 .HomeNavLink:hover{
     color: #EE7C7C  !important;
 }
+.HomeButtonRead{
+    float: left;
+    margin-left: 20px;
+}
