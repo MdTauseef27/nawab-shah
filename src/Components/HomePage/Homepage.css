@@ -24,3 +24,9 @@
     font-size: 20;
     font-weight: bold;
 }
+.HomeNavLink{
+    float:left;
+    margin-left: 5px;
+    color:black;
+    font-weight: bold;
+}

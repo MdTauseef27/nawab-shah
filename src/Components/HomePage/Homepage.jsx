@@ -30,9 +30,7 @@ export const Homepage = () => {
           <Card className="HomeCards">
             <Card.Img src={cardLogo1}></Card.Img>
           </Card>
-          <Nav.Link style={{ float: "left", marginLeft: "5px" }}>
-            NSAKCET
-          </Nav.Link>
+          <Nav.Link className="HomeNavLink">NSAKCET</Nav.Link>
           <br></br>
           <p
             style={{
@@ -54,9 +52,7 @@ export const Homepage = () => {
           <Card className="HomeCards" style={{ marginTop: "48px" }}>
             <Card.Img src={cardLogo2}></Card.Img>
           </Card>
-          <Nav.Link style={{ float: "left", marginLeft: "5px" }}>
-            LABORATORIES
-          </Nav.Link>
+          <Nav.Link className="HomeNavLink">LABORATORIES</Nav.Link>
           <br></br>
           <p
             style={{
@@ -78,9 +74,7 @@ export const Homepage = () => {
           <Card className="HomeCards" style={{ marginTop: "48px" }}>
             <Card.Img src={cardLogo1}></Card.Img>
           </Card>
-          <Nav.Link style={{ float: "left", marginLeft: "5px" }}>
-            EMINENT PROFESSORS
-          </Nav.Link>
+          <Nav.Link className="HomeNavLink">EMINENT PROFESSORS</Nav.Link>
           <br></br>
           <p
             style={{
