@@ -105,6 +105,26 @@ export const Homepage = () => {
         </Col>
         <Col lg="3">
           <h6 className="HomeHeader6">LATEST NEWS</h6>
+          <Card
+            style={{
+              width: "18rem",
+              height: "25rem",
+              marginTop: "30px",
+              backgroundColor: "#EE7C7C",
+            }}
+          >
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+              <hr></hr>
+              <Nav.Link>COURSES</Nav.Link>
+              <Nav.Link>Study Material</Nav.Link>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </div>
