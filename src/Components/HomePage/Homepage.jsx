@@ -152,13 +152,17 @@ export const Homepage = () => {
               backgroundColor: "#EE7C7C",
             }}
           >
-            <Card.Body>
-              <p>https://payments.billdesk.com/bdcollect/pay?p1=478&amp;p2=1</p>
-              <hr></hr>
-              <p>Nsakcet video https://youtu.be/2gEEAHKGfAQ</p>
-              <hr></hr>
-              <p>https://youtu.be/mLWRTBgqHuM</p>
-            </Card.Body>
+            <div className="container">
+              <Card.Body id="divTAReviews">
+                <p>
+                  https://payments.billdesk.com/bdcollect/pay?p1=478&amp;p2=1
+                </p>
+                <hr></hr>
+                <p>Nsakcet video https://youtu.be/2gEEAHKGfAQ</p>
+                <hr></hr>
+                <p>https://youtu.be/mLWRTBgqHuM</p>
+              </Card.Body>
+            </div>
           </Card>
           <Card
             style={{

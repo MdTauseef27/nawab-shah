@@ -56,3 +56,28 @@
     line-height: 20px;
     margin-top: 20px;
 }
+@keyframes movingBottomToTop {
+    0% {
+        top: -15px;
+      }
+     
+      100% {
+        top: 300px;
+      }
+    }
+    .container {
+      height: 300px;
+      overflow: hidden;
+    }
+  
+  #divTAReviews {
+    animation: movingBottomToTop 8s linear infinite;
+    
+    position: relative;
+    /* background: lightblue; */
+     display: inline-block; 
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  
