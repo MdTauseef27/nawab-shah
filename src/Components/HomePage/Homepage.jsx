@@ -199,7 +199,17 @@ export const Homepage = () => {
                     width: "170px",
                   }}
                 />
-                <p>Congratulations</p>
+                <p style={{ textAlign: "center" }}>Congratulations</p>
+                <h3
+                  style={{
+                    content: "none",
+                    height: "3px",
+                    width: "30px",
+                    background: "#EE7C7C",
+                    position: "absolute",
+                    marginLeft: "110px",
+                  }}
+                ></h3>
                 <p>
                   Congratulations to Associate Professor, Mohammed Abdul Sattar
                   from ECE Department for achieving Senior Membership status and
