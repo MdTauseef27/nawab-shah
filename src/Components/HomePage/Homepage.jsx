@@ -26,7 +26,7 @@ import imgProf5 from "../Images/HomeCarouselProfessor5.jpg";
 import imgProf7 from "../Images/HomeCarouselProfessor7.jpg";
 import imgProf8 from "../Images/HomeCarouselProfessor8.jpg";
 import imgProf9 from "../Images/HomeCarouselProfessor9.jpg";
-
+import eventsLogo1 from "../Images/HomeEventsCarousel1.png";
 import "../HomePage/Homepage.css";
 export const Homepage = () => {
   return (
@@ -182,15 +182,24 @@ export const Homepage = () => {
           <h1>hiiiiiiiiii</h1>
         </Col>
         <Col lg="3">
-          <Card style={{ height: "100%", marginRight: "35px" }}>
+          <Card
+            style={{
+              height: "100%",
+              marginRight: "35px",
+            }}
+          >
             <Carousel>
               <Carousel.Item>
                 <h6>EVENTS & PLACEMENTS</h6>
                 <img
-                  className="d-block w-100"
-                  src="holder.js/800x400?text=First slide&bg=373940"
+                  src={eventsLogo1}
+                  style={{
+                    borderRadius: "100%",
+                    height: "170px",
+                    width: "170px",
+                  }}
                 />
-                <h3>Congratulations</h3>
+                <p>Congratulations</p>
                 <p>
                   Congratulations to Associate Professor, Mohammed Abdul Sattar
                   from ECE Department for achieving Senior Membership status and
