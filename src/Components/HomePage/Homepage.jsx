@@ -182,7 +182,26 @@ export const Homepage = () => {
           <h1>hiiiiiiiiii</h1>
         </Col>
         <Col lg="3">
-          <Card></Card>
+          <Card style={{ height: "100%", marginRight: "35px" }}>
+            <Carousel>
+              <Carousel.Item>
+                <h6>EVENTS & PLACEMENTS</h6>
+                <img
+                  className="d-block w-100"
+                  src="holder.js/800x400?text=First slide&bg=373940"
+                />
+                <h3>Congratulations</h3>
+                <p>
+                  Congratulations to Associate Professor, Mohammed Abdul Sattar
+                  from ECE Department for achieving Senior Membership status and
+                  for receiving a Plaque from IEEE (The highest standard
+                  Institute at International level defining Electrical and
+                  Electronics). Mr. Sattar is among the lucky 9% IEEE members
+                  who earned the Senior Membership.
+                </p>
+              </Carousel.Item>
+            </Carousel>
+          </Card>
         </Col>
       </Row>
     </div>
