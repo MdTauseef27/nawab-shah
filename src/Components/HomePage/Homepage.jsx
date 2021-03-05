@@ -177,6 +177,14 @@ export const Homepage = () => {
           </Card>
         </Col>
       </Row>
+      <Row>
+        <Col lg="8">
+          <h1>hiiiiiiiiii</h1>
+        </Col>
+        <Col>
+          <Card></Card>
+        </Col>
+      </Row>
     </div>
   );
 };
