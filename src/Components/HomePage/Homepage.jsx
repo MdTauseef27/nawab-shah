@@ -213,7 +213,7 @@ export const Homepage = () => {
                     marginLeft: "110px",
                   }}
                 ></h3>
-                <p>
+                <p style={{ textAlign: "center" }}>
                   Congratulations to Associate Professor, Mohammed Abdul Sattar
                   from ECE Department for achieving Senior Membership status and
                   for receiving a Plaque from IEEE (The highest standard
