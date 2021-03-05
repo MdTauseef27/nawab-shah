@@ -186,6 +186,7 @@ export const Homepage = () => {
             style={{
               height: "100%",
               marginRight: "35px",
+              backgroundColor: "#EE7C7C",
             }}
           >
             <Carousel>
@@ -199,13 +200,15 @@ export const Homepage = () => {
                     width: "170px",
                   }}
                 />
-                <p style={{ textAlign: "center" }}>Congratulations</p>
+                <p style={{ textAlign: "center", color: "white" }}>
+                  Congratulations
+                </p>
                 <h3
                   style={{
                     content: "none",
                     height: "3px",
                     width: "30px",
-                    background: "#EE7C7C",
+                    background: "white",
                     position: "absolute",
                     marginLeft: "110px",
                   }}
