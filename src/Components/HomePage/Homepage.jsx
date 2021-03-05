@@ -191,7 +191,7 @@ export const Homepage = () => {
           >
             <Carousel>
               <Carousel.Item>
-                <h6>EVENTS & PLACEMENTS</h6>
+                <h6 style={{ color: "white" }}>EVENTS & PLACEMENTS</h6>
                 <img
                   src={eventsLogo1}
                   style={{
@@ -213,7 +213,18 @@ export const Homepage = () => {
                     marginLeft: "110px",
                   }}
                 ></h3>
-                <p style={{ textAlign: "center" }}>
+                <p
+                  style={{
+                    textAlign: "center",
+                    marginBottom: "20px",
+                    color: "white",
+                    marginTop: "30px",
+                    marginLeft: "10px",
+                    marginRight: "10px",
+                    fontSize: "13px",
+                    lineHeight: "22px",
+                  }}
+                >
                   Congratulations to Associate Professor, Mohammed Abdul Sattar
                   from ECE Department for achieving Senior Membership status and
                   for receiving a Plaque from IEEE (The highest standard
