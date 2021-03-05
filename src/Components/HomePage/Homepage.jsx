@@ -178,10 +178,10 @@ export const Homepage = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg="8">
+        <Col lg="9">
           <h1>hiiiiiiiiii</h1>
         </Col>
-        <Col>
+        <Col lg="3">
           <Card></Card>
         </Col>
       </Row>
