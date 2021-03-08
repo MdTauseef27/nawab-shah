@@ -28,6 +28,14 @@ import imgProf8 from "../Images/HomeCarouselProfessor8.jpg";
 import imgProf9 from "../Images/HomeCarouselProfessor9.jpg";
 import eventsLogo1 from "../Images/HomeCarouselEvents1.png";
 import eventsLogo2 from "../Images/HomeCarouselEvents2.jpg";
+import eventsLogo3 from "../Images/HomeCarouselEvents3.jpg";
+import eventsLogo4 from "../Images/HomeCarouselEvents4.png";
+import eventsLogo5 from "../Images/HomeCarouselEvents5.jpg";
+import eventsLogo6 from "../Images/HomeCarouselEvents6.jpg";
+import eventsLogo7 from "../Images/HomeCarouselEvents7.jpg";
+import eventsLogo8 from "../Images/HomeCarouselEvents8.jpg";
+import eventsLogo9 from "../Images/HomeCarouselEvents9.png";
+
 import LatestEventsLogo from "../Images/LatestEventsLogo.png";
 import "../HomePage/Homepage.css";
 export const Homepage = () => {
@@ -219,6 +227,20 @@ export const Homepage = () => {
                 <p className="HomeEventsPlacementP2">
                   Vice Principal Mr. Farrukh Anwar, presented his joint paper
                   along with Dr.Asthana at an International conf., ICSTM-2017
+                </p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo3} className="HomeEventsPlacementImage" />
+                <p className="HomeEventsPlacementP1">
+                  ISHRAE BIZQUIZ Competitions
+                </p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  Vice Principal Mr. Raza Ahmed Khan receiving prize in Quiz
+                  Competitions for NSAKCET ISHRAE Students Chapter in ISHRAE
+                  BIZQUIZ Competitions at Hotel Green Park on Saturday 2-Dec-17.
                 </p>
               </Carousel.Item>
             </Carousel>
