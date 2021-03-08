@@ -201,8 +201,8 @@ export const Homepage = () => {
         </Col>
         <Col lg="3">
           <Card className="HomeEventsPlacementCard">
-            <Carousel>
-              <Carousel.Item>
+            <Carousel controls={false}>
+              <Carousel.Item interval={2000}>
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
                 <img src={eventsLogo1} className="HomeEventsPlacementImage" />
                 <p className="HomeEventsPlacementP1">Congratulations</p>
@@ -216,7 +216,7 @@ export const Homepage = () => {
                   who earned the Senior Membership.
                 </p>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item interval={2000}>
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo2} className="HomeEventsPlacementImage" />
@@ -229,7 +229,7 @@ export const Homepage = () => {
                   along with Dr.Asthana at an International conf., ICSTM-2017
                 </p>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item interval={2000}>
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo3} className="HomeEventsPlacementImage" />
@@ -241,6 +241,85 @@ export const Homepage = () => {
                   Vice Principal Mr. Raza Ahmed Khan receiving prize in Quiz
                   Competitions for NSAKCET ISHRAE Students Chapter in ISHRAE
                   BIZQUIZ Competitions at Hotel Green Park on Saturday 2-Dec-17.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo4} className="HomeEventsPlacementImage" />
+                <p className="HomeEventsPlacementP1">
+                  Seminar on Embedded Software Safety & Security
+                </p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  Faculties of ECE, NSAKCET attended One day Seminar on Embedded
+                  Software Safety &amp; Security organised by LDRA at Taj Deccan
+                  on 10-Nov-2017.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo5} className="HomeEventsPlacementImage" />
+                <h6>Mohammed Saifullah Shareef</h6>
+                <p className="HomeEventsPlacementP1">Mechanical Department</p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  He is selected in Chinese Plant Manufacturing Company as
+                  "Technical Service Engineer". He got selected before
+                  convocation and presently working in Hyderabad.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo6} className="HomeEventsPlacementImage" />
+                <h6>Syed Rafeeq ul Haque</h6>
+                <p className="HomeEventsPlacementP1">Mechanical Department</p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  He is selected in Chinese Plant Manufacturing Company as
+                  "Technical Service Engineer". He got selected before
+                  convocation and presently working in West Bengal.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo7} className="HomeEventsPlacementImage" />
+                <h6>Abdullah Abdul Basith Qureshi</h6>
+                <p className="HomeEventsPlacementP1">Mechanical Department</p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  He is selected in Chinese Plant Manufacturing Company as
+                  "Technical Service Engineer". He got selected before
+                  convocation and presently working in Chhattisgarh.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo8} className="HomeEventsPlacementImage" />
+                <h6>Syed Sameer</h6>
+                <p className="HomeEventsPlacementP1">Mechanical Department</p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  He is selected in Chinese Plant Manufacturing Company as
+                  "Technical Service Engineer". He got selected before
+                  convocation.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item interval={2000}>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo9} className="HomeEventsPlacementImage" />
+                <h6>Md. Sameer & Md. Sohail</h6>
+
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  Mr.Mujahed Alam Khan congratulating students Md. Sameer & Md.
+                  Sohail for winning Duet Singing Competition wtih First Place
+                  out of 150 singers in Udbhav Fest 2016, Aurora Engg College.
                 </p>
               </Carousel.Item>
             </Carousel>
