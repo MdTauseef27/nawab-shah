@@ -78,5 +78,40 @@
     padding: 10px;
     overflow: hidden;
   }
-
+.HomeEventsPlacementCard{
+    /* height: 100%; */
+    margin-right: 35px;
+    margin-top: 30px;
+    background-color: #EE7C7C;
+}
+.HomeEventsPlacementH6{
+    color: white;
+}
+.HomeEventsPlacementImage{
+border-radius: 100%;
+height: 170px;
+width: 170px;
+}
+.HomeEventsPlacementP1{
+text-align: center;;
+color: white;
+}
+.HomeEventsPlacementH3{
+    content: none;
+    height: 3px;
+    width: 30px;
+    background: white;
+    position: absolute;
+    margin-left: 110px;
+}
+.HomeEventsPlacementP2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 22px;
+}
   
