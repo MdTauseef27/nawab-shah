@@ -26,7 +26,9 @@ import imgProf5 from "../Images/HomeCarouselProfessor5.jpg";
 import imgProf7 from "../Images/HomeCarouselProfessor7.jpg";
 import imgProf8 from "../Images/HomeCarouselProfessor8.jpg";
 import imgProf9 from "../Images/HomeCarouselProfessor9.jpg";
-import eventsLogo1 from "../Images/HomeEventsCarousel1.png";
+import eventsLogo1 from "../Images/HomeCarouselEvents1.png";
+import eventsLogo2 from "../Images/HomeCarouselEvents2.jpg";
+import LatestEventsLogo from "../Images/LatestEventsLogo.png";
 import "../HomePage/Homepage.css";
 export const Homepage = () => {
   return (
@@ -179,58 +181,44 @@ export const Homepage = () => {
       </Row>
       <Row>
         <Col lg="9">
-          <h1>hiiiiiiiiii</h1>
+          <img
+            src={LatestEventsLogo}
+            style={{
+              marginBottom: "50px",
+              marginTop: "30px",
+              float: "left",
+              marginLeft: "20px",
+            }}
+          ></img>
         </Col>
         <Col lg="3">
-          <Card
-            style={{
-              height: "100%",
-              marginRight: "35px",
-              backgroundColor: "#EE7C7C",
-            }}
-          >
+          <Card className="HomeEventsPlacementCard">
             <Carousel>
               <Carousel.Item>
-                <h6 style={{ color: "white" }}>EVENTS & PLACEMENTS</h6>
-                <img
-                  src={eventsLogo1}
-                  style={{
-                    borderRadius: "100%",
-                    height: "170px",
-                    width: "170px",
-                  }}
-                />
-                <p style={{ textAlign: "center", color: "white" }}>
-                  Congratulations
-                </p>
-                <h3
-                  style={{
-                    content: "none",
-                    height: "3px",
-                    width: "30px",
-                    background: "white",
-                    position: "absolute",
-                    marginLeft: "110px",
-                  }}
-                ></h3>
-                <p
-                  style={{
-                    textAlign: "center",
-                    marginBottom: "20px",
-                    color: "white",
-                    marginTop: "30px",
-                    marginLeft: "10px",
-                    marginRight: "10px",
-                    fontSize: "13px",
-                    lineHeight: "22px",
-                  }}
-                >
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+                <img src={eventsLogo1} className="HomeEventsPlacementImage" />
+                <p className="HomeEventsPlacementP1">Congratulations</p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
                   Congratulations to Associate Professor, Mohammed Abdul Sattar
                   from ECE Department for achieving Senior Membership status and
                   for receiving a Plaque from IEEE (The highest standard
                   Institute at International level defining Electrical and
                   Electronics). Mr. Sattar is among the lucky 9% IEEE members
                   who earned the Senior Membership.
+                </p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
+
+                <img src={eventsLogo2} className="HomeEventsPlacementImage" />
+                <p className="HomeEventsPlacementP1">
+                  International Conference ICSTM - 2017
+                </p>
+                <h3 className="HomeEventsPlacementH3"></h3>
+                <p className="HomeEventsPlacementP2">
+                  Vice Principal Mr. Farrukh Anwar, presented his joint paper
+                  along with Dr.Asthana at an International conf., ICSTM-2017
                 </p>
               </Carousel.Item>
             </Carousel>
