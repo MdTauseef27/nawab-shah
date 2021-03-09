@@ -202,7 +202,10 @@ export const Homepage = () => {
         <Col lg="3">
           <Card className="HomeEventsPlacementCard">
             <Carousel controls={false}>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
                 <img src={eventsLogo1} className="HomeEventsPlacementImage" />
                 <p className="HomeEventsPlacementP1">Congratulations</p>
@@ -216,7 +219,10 @@ export const Homepage = () => {
                   who earned the Senior Membership.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo2} className="HomeEventsPlacementImage" />
@@ -229,7 +235,10 @@ export const Homepage = () => {
                   along with Dr.Asthana at an International conf., ICSTM-2017
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo3} className="HomeEventsPlacementImage" />
@@ -243,7 +252,10 @@ export const Homepage = () => {
                   BIZQUIZ Competitions at Hotel Green Park on Saturday 2-Dec-17.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo4} className="HomeEventsPlacementImage" />
@@ -257,11 +269,16 @@ export const Homepage = () => {
                   on 10-Nov-2017.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo5} className="HomeEventsPlacementImage" />
-                <h6>Mohammed Saifullah Shareef</h6>
+                <h6 className="HomeEventsPlacementH6">
+                  Mohammed Saifullah Shareef
+                </h6>
                 <p className="HomeEventsPlacementP1">Mechanical Department</p>
                 <h3 className="HomeEventsPlacementH3"></h3>
                 <p className="HomeEventsPlacementP2">
@@ -270,11 +287,14 @@ export const Homepage = () => {
                   convocation and presently working in Hyderabad.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo6} className="HomeEventsPlacementImage" />
-                <h6>Syed Rafeeq ul Haque</h6>
+                <h6 className="HomeEventsPlacementH6">Syed Rafeeq ul Haque</h6>
                 <p className="HomeEventsPlacementP1">Mechanical Department</p>
                 <h3 className="HomeEventsPlacementH3"></h3>
                 <p className="HomeEventsPlacementP2">
@@ -283,11 +303,16 @@ export const Homepage = () => {
                   convocation and presently working in West Bengal.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo7} className="HomeEventsPlacementImage" />
-                <h6>Abdullah Abdul Basith Qureshi</h6>
+                <h6 className="HomeEventsPlacementH6">
+                  Abdullah Abdul Basith Qureshi
+                </h6>
                 <p className="HomeEventsPlacementP1">Mechanical Department</p>
                 <h3 className="HomeEventsPlacementH3"></h3>
                 <p className="HomeEventsPlacementP2">
@@ -296,11 +321,14 @@ export const Homepage = () => {
                   convocation and presently working in Chhattisgarh.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo8} className="HomeEventsPlacementImage" />
-                <h6>Syed Sameer</h6>
+                <h6 className="HomeEventsPlacementH6">Syed Sameer</h6>
                 <p className="HomeEventsPlacementP1">Mechanical Department</p>
                 <h3 className="HomeEventsPlacementH3"></h3>
                 <p className="HomeEventsPlacementP2">
@@ -309,11 +337,16 @@ export const Homepage = () => {
                   convocation.
                 </p>
               </Carousel.Item>
-              <Carousel.Item interval={2000}>
+              <Carousel.Item
+                interval={2000}
+                className="HomeEventsPlacementCarouselItem"
+              >
                 <h6 className="HomeEventsPlacementH6">EVENTS & PLACEMENTS</h6>
 
                 <img src={eventsLogo9} className="HomeEventsPlacementImage" />
-                <h6>Md. Sameer & Md. Sohail</h6>
+                <h6 className="HomeEventsPlacementH6">
+                  Md. Sameer & Md. Sohail
+                </h6>
 
                 <h3 className="HomeEventsPlacementH3"></h3>
                 <p className="HomeEventsPlacementP2">
