@@ -503,10 +503,9 @@ export const Navbars = () => {
                 <UGCoursesDetails />
               </Col>
               <Col lg="9">
-                <VisionMisionIT />
+                <SourceOutcomeCivil />
               </Col>
             </Row>
-            <SourceOutcomeCivil />
           </Route>
           <Route path="/MECHBTECH">
             <AboutCourseMech />
