@@ -493,10 +493,9 @@ export const Navbars = () => {
                 <UGCoursesDetails />
               </Col>
               <Col lg="9">
-                <VisionMisionIT />
+                <PEOCivil />
               </Col>
             </Row>
-            <PEOCivil />
           </Route>
           <Route path="/B-CIVIL-CourseOutcomes">
             <Row>
