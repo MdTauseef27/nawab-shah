@@ -448,21 +448,68 @@ export const Navbars = () => {
             </Row>
           </Route>
           <Route path="/B-IT-POSPSOS">
-            <PEOIT />
+            <Row>
+              <Col lg="3">
+                <UGCoursesDetails />
+              </Col>
+              <Col lg="9">
+                <PEOIT />
+              </Col>
+            </Row>
           </Route>
           <Route path="/B-IT-CourseOutcomes">
+            <Row>
+              <Col lg="3">
+                <UGCoursesDetails />
+              </Col>
+              <Col lg="9">
+                <VisionMisionIT />
+              </Col>
+            </Row>
             <SourceOutcomeIT />
           </Route>
           <Route path="/CIVILBTECH">
+            <Row>
+              <Col lg="3">
+                <UGCoursesDetails />
+              </Col>
+              <Col lg="9">
+                <VisionMisionIT />
+              </Col>
+            </Row>
             <AboutCourseCivil />
           </Route>
           <Route path="/B-CIVIL-VisionMission">
+            <Row>
+              <Col lg="3">
+                <UGCoursesDetails />
+              </Col>
+              <Col lg="9">
+                <VisionMisionIT />
+              </Col>
+            </Row>
             <VisionMisionCivil />
           </Route>
           <Route path="/B-CIVIL-POSPSOS">
+            <Row>
+              <Col lg="3">
+                <UGCoursesDetails />
+              </Col>
+              <Col lg="9">
+                <VisionMisionIT />
+              </Col>
+            </Row>
             <PEOCivil />
           </Route>
           <Route path="/B-CIVIL-CourseOutcomes">
+            <Row>
+              <Col lg="3">
+                <UGCoursesDetails />
+              </Col>
+              <Col lg="9">
+                <VisionMisionIT />
+              </Col>
+            </Row>
             <SourceOutcomeCivil />
           </Route>
           <Route path="/MECHBTECH">
