@@ -558,7 +558,11 @@ export const Navbars = () => {
             </Row>
           </Route>
           <Route path="/B-ECE-VisionMission">
-            <VisionMisionECE />
+            <Row>
+              <Col lg="9">
+                <VisionMisionECE />
+              </Col>
+            </Row>
           </Route>
           <Route path="/B-ECE-POSPSOS">
             <PEOECE />
