@@ -522,7 +522,7 @@ export const Navbars = () => {
               <Col lg="3">
                 <UGCoursesDetails />
               </Col>
-              <Col>
+              <Col lg="9">
                 <VisionMisionMech />
               </Col>
             </Row>
