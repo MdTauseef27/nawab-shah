@@ -518,7 +518,12 @@ export const Navbars = () => {
             </Row>
           </Route>
           <Route path="/B-MECH-VisionMission">
-            <VisionMisionMech />
+            <Row>
+              <Col lg="3"></Col>
+              <Col>
+                <VisionMisionMech />
+              </Col>
+            </Row>
           </Route>
           <Route path="/B-MECH-POSPSOS">
             <PEOMech />
