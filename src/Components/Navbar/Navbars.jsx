@@ -658,7 +658,11 @@ export const Navbars = () => {
             </Row>
           </Route>
           <Route path="/ECE-MTECH">
-            <MEECE />
+            <Row>
+              <Col lg="9">
+                <MEECE />
+              </Col>
+            </Row>
           </Route>
           <Route path="/POLYCIVIL">
             <PolyCivil />
