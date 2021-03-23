@@ -622,7 +622,6 @@ export const Navbars = () => {
               <Col lg="3">
                 <UGCoursesDetails />
               </Col>
-
               <Col lg="9">
                 <SourceOutcomeEEE />
               </Col>
