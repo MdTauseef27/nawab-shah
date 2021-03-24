@@ -739,7 +739,9 @@ export const Navbars = () => {
           </Route>
           <Route path="/Task">
             <Row>
-              <TSAcademy />
+              <Col lg="9">
+                <TSAcademy />
+              </Col>
             </Row>
           </Route>
           <Route path="/">
