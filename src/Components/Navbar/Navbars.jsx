@@ -718,7 +718,11 @@ export const Navbars = () => {
             </Row>
           </Route>
           <Route path="/CISCONetworkingAcademy">
-            <CiscoNetworking />
+            <Row>
+              <Col lg="9">
+                <CiscoNetworking />
+              </Col>
+            </Row>
           </Route>
           <Route path="/BusinessEnglishCertificate">
             <CambridgeEnglish />
