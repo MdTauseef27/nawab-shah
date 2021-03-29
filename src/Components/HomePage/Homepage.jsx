@@ -110,7 +110,7 @@ export const Homepage = () => {
         </Col>
         <Col lg="3">
           <Card className="HomeCarouselProfessor" style={{ marginTop: "48px" }}>
-            <Carousel>
+            <Carousel controls={false}>
               <Carousel.Item interval={2000}>
                 <img src={imgProf1} className="HomeCarouselProfImage" />
               </Carousel.Item>
