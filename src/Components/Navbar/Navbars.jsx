@@ -125,9 +125,7 @@ export const Navbars = () => {
          
           
         
-            <Button onClick={() => setISShowCyber(!isShowCyber)}>
-              BE (IOT,CYBER SECURITY,BLOCK CHAIN)
-            </Button>
+           
             {isShowCyber && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass">About Course</Nav.Link>
