@@ -128,28 +128,6 @@ export const Navbars = () => {
          
          
         
-            {isShowMech && (
-              <Nav className="navmainclass">
-                <Nav.Link className="navlinkclass" href="/MECHBTECH">
-                  About Course
-                </Nav.Link>
-
-                <Nav.Link className="navlinkclass" href="/B-MECH-VisionMission">
-                  Vision & Mision
-                </Nav.Link>
-
-                <Nav.Link className="navlinkclass" href="/B-MECH-POSPSOS">
-                  PEO's & PSO's
-                </Nav.Link>
-
-                <Nav.Link
-                  className="navlinkclass"
-                  href="/B-MECH-CourseOutcomes"
-                >
-                  Course OutCome
-                </Nav.Link>
-              </Nav>
-            )}
             <Button onClick={() => setISShowECE(!isShowECE)}>BE (ECE)</Button>
             {isShowECE && (
               <Nav className="navmainclass">
