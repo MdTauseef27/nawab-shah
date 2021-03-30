@@ -41,7 +41,7 @@ import "../HomePage/Homepage.css";
 export const Homepage = () => {
   return (
     <div>
-      <Carousel className="HomeCarousels">
+      <Carousel controls={false} className="HomeCarousels">
         <Carousel.Item interval={1000}>
           <img src={imgLogo1} />
         </Carousel.Item>
