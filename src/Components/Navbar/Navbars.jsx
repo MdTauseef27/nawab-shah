@@ -116,16 +116,7 @@ export const Navbars = () => {
           position: "absolute",
         }}
       ></h6>
-      {/* <Router>
-        <Switch> */}
-      {/* <Route path="/CSEBTECH">
-            <UGCoursesDetails />
-          </Route> */}
-      {/* <Route path="/">
-            <Homepage />
-          </Route> */}
-      {/* </Switch>
-      </Router> */}
+
       {/* 
       <Row>
         <Col lg="3">
