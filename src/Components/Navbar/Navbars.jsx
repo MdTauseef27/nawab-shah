@@ -128,7 +128,6 @@ export const Navbars = () => {
          
          
         
-            <Button onClick={() => setISShowEEE(!isShowEEE)}>BE (EEE)</Button>
             {isShowEEE && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/EEEBTECH">
