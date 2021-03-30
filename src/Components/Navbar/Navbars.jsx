@@ -127,31 +127,6 @@ export const Navbars = () => {
         
          
          
-            {isShowCivil && (
-              <Nav className="navmainclass">
-                <Nav.Link className="navlinkclass" href="/CIVILBTECH">
-                  About Course
-                </Nav.Link>
-
-                <Nav.Link
-                  className="navlinkclass"
-                  href="/B-CIVIL-VisionMission"
-                >
-                  Vision & Mision
-                </Nav.Link>
-
-                <Nav.Link className="navlinkclass" href="/B-CIVIL-POSPSOS">
-                  PEO's & PSO's
-                </Nav.Link>
-
-                <Nav.Link
-                  className="navlinkclass"
-                  href="/B-CIVIL-CourseOutcomes"
-                >
-                  Course OutCome
-                </Nav.Link>
-              </Nav>
-            )}
             <Button onClick={() => setISShowMech(!isShowMech)}>
               BE (MECH)
             </Button>
