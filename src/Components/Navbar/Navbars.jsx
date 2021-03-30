@@ -121,27 +121,7 @@ export const Navbars = () => {
       <Row>
         <Col lg="3">
           <Card>
-            <Button>UG Courses</Button>
-            <Button onClick={() => setIsShowCse(!isshowCse)}>BE (CSE)</Button>
-            {isshowCse && (
-              <Nav className="navmainclass">
-                <Nav.Link className="navlinkclass" href="/CSEBTECHE">
-                  About Course
-                </Nav.Link>
-
-                <Nav.Link className="navlinkclass" href="/B-CSE-VisionMission">
-                  Vision & Mission
-                </Nav.Link>
-
-                <Nav.Link className="navlinkclass" href="/B-CSE-POSPSOS">
-                  PEO's & PSO's
-                </Nav.Link>
-
-                <Nav.Link className="navlinkclass" href="/B-CSE-CourseOutcomes">
-                  Course OutCome
-                </Nav.Link>
-              </Nav>
-            )}
+            
             <Button onClick={() => setISShowIT(!isShowIT)}>BE (IT)</Button>
             {isShowIT && (
               <Nav className="navmainclass">
