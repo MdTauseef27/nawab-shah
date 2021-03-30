@@ -128,7 +128,6 @@ export const Navbars = () => {
          
          
         
-            <Button onClick={() => setISShowECE(!isShowECE)}>BE (ECE)</Button>
             {isShowECE && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/ECEBTECH">
