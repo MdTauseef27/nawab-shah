@@ -126,9 +126,7 @@ export const Navbars = () => {
           
         
          
-            <Button onClick={() => setISShowCivil(!isShowCivil)}>
-              BE (CIVIL)
-            </Button>
+         
             {isShowCivil && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/CIVILBTECH">
