@@ -127,9 +127,7 @@ export const Navbars = () => {
         
          
          
-            <Button onClick={() => setISShowMech(!isShowMech)}>
-              BE (MECH)
-            </Button>
+        
             {isShowMech && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/MECHBTECH">
