@@ -122,7 +122,6 @@ export const Navbars = () => {
         <Col lg="3">
           <Card>
             
-            <Button onClick={() => setISShowIT(!isShowIT)}>BE (IT)</Button>
             {isShowIT && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/ITBTECH">
