@@ -124,17 +124,7 @@ export const Navbars = () => {
             
          
           
-            {isShowAIML && (
-              <Nav className="navmainclass">
-                <Nav.Link className="navlinkclass">About Course</Nav.Link>
-
-                <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
-
-                <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
-
-                <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
-              </Nav>
-            )}
+        
             <Button onClick={() => setISShowCyber(!isShowCyber)}>
               BE (IOT,CYBER SECURITY,BLOCK CHAIN)
             </Button>
