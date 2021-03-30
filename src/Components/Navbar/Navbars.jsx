@@ -123,9 +123,7 @@ export const Navbars = () => {
           <Card>
             
          
-            <Button onClick={() => setISShowAIML(!isShowAIML)}>
-              BE (AI & ML)
-            </Button>
+          
             {isShowAIML && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass">About Course</Nav.Link>
