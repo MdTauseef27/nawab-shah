@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Card, Row, Col, Button, Nav } from "react-bootstrap";
+import { Card, Button, Nav } from "react-bootstrap";
 import "..//A-HomeAllCourses/LeftNav.css";
-
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
