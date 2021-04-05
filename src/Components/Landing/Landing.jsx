@@ -14,7 +14,6 @@ export const Landing = () => {
         <HeaderContent />
         <Navbars />
         <FooterContent />
-        {/* <UGCoursesDetails /> */}
       </Card>
     </div>
   );
