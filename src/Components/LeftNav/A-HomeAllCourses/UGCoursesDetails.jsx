@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Card, Row, Col, Button, Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "..//A-HomeAllCourses/LeftNav.css";
 
 export const UGCoursesDetails = () => {
