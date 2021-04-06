@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar, Nav, Row, Col, Button, Card } from "react-bootstrap";
+import { Navbar, Nav, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Navbar/Navbars.css";
 import { Homepage } from "../HomePage/Homepage";
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
-
 import { AboutCourse } from "../LeftNav/UGCourses/BE(CSE)/AboutCourse";
 import "../LeftNav/A-HomeAllCourses/LeftNav.css";
 import { VisionMision } from "../LeftNav/UGCourses/BE(CSE)/VisionMision";
