@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../Navbar/Navbars.css";
 import { Homepage } from "../HomePage/Homepage";
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
-import { MYHome } from "../MYHome";
+
 import { AboutCourse } from "../LeftNav/UGCourses/BE(CSE)/AboutCourse";
 import "../LeftNav/A-HomeAllCourses/LeftNav.css";
 import { VisionMision } from "../LeftNav/UGCourses/BE(CSE)/VisionMision";
