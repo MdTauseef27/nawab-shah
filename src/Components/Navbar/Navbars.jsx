@@ -116,9 +116,7 @@ export const Navbars = () => {
       {/* <Navbar collapseOnSelect>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
-           
-          </Nav>
+          
         </Navbar.Collapse>
       </Navbar> */}
 
