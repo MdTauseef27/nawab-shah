@@ -67,7 +67,7 @@ export const Navbars = () => {
           position: "absolute",
         }}
       ></h6>
-      <Navbar collapseOnSelect expand="lg" className="NavBackground">
+      <Navbar collapseOnSelect expand="lg">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
