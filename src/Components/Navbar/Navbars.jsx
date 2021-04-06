@@ -42,7 +42,6 @@ import { CiscoNetworking } from "../LeftNav/CiscoNW/CiscoNetworking";
 import { TSAcademy } from "../LeftNav/Task/TSAcademy";
 import { CambridgeEnglish } from "../LeftNav/CambridgeEnglish/CambridgeEnglish";
 import { HumanValues } from "../LeftNav/HumanValues/HumanValues";
-// import { VisionMision } from "../LeftNav/UGCourses/BE(CSE)/VisionMision";
 export const Navbars = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
