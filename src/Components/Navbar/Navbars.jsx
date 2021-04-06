@@ -68,10 +68,7 @@ export const Navbars = () => {
         }}
       ></h6>
       <Navbar collapseOnSelect expand="lg" className="NavBackground">
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          className="NavCollapsed"
-        />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
             <Nav.Link className="navbarlink" href="/">
