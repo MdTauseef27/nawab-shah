@@ -35,12 +35,6 @@ export const NavbarMain = () => {
           <Nav.Link className="navbarmainlink" href="#pricing">
             IQAC
           </Nav.Link>
-          {/* <Nav.Link className="navbarmainlink" href="#pricing">
-            Online Fee Payment
-          </Nav.Link>
-          <Nav.Link className="navbarmainlink" href="#pricing">
-            EAMCET & JEE Mock Test
-          </Nav.Link> */}
         </Nav>
       </Navbar>
     </div>
