@@ -21,7 +21,6 @@ export const HeaderContent = () => {
             <img className="HeaderLogo" src={imgLogo3}></img>
           </Col>
         </Row>
-        {/* <h6 className="admissioncontent">Admission Form</h6> */}
       </Card>
     </div>
   );
