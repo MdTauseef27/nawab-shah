@@ -19,7 +19,7 @@ Button{
     .navlinkclass:hover{
         color:white;
         background-color:#B91818;
-        /* transform: scaleY(2.5); */
+        
     }
   
     .navmainclass:hover{
