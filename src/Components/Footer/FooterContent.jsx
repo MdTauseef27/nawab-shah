@@ -12,7 +12,7 @@ export const FooterContent = () => {
       <div className=" maindiv">
         <Row>
           <Col lg="4">
-            <h6 className="Contenth6">
+            <h6 className="Contenth6" style={{marginLeft:"20px"}}>
               <MailOutlineIcon
                 style={{ marginBottom: "2px", marginRight: "10px" }}
               />
