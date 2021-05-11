@@ -1,6 +1,6 @@
 import React from "react";
 import "../BE(CIVIL)/BECivil.css";
-// import imglogo from "../../../Images/imgaes1.png";
+
 import imgLogo from "../../../Images/ETCImages.png";
 export const AboutCourseEEE = () => {
   return (
