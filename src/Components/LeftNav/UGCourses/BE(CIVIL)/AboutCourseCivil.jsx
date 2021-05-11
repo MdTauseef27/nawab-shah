@@ -1,6 +1,5 @@
 import React from "react";
 import "../BE(CIVIL)/BECivil.css";
-
 import imgLogo from "../../../Images/CivilImages.png";
 export const AboutCourseCivil = () => {
   return (
