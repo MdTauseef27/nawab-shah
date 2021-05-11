@@ -1,6 +1,5 @@
 import React from "react";
 import "../BE(CSE)/BECSE.css";
-
 import imgLogo from "../../../Images/ElectImages.png";
 export const AboutCourseECE = () => {
   return (
