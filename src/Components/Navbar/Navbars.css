@@ -8,8 +8,8 @@
 .navbarlink:hover{
  color: #EE7C7C !important; 
 /* transform: scale(1.0) !important; */
- /* border-bottom: 2px solid #EE7C7C;  
- padding: 10px;  */
+  border-bottom: 2px solid #EE7C7C;  
+ padding: 10px;  
 }
 .navbarmain{
     background-color: #B22D30;
